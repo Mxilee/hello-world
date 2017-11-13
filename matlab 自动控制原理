@@ -1,0 +1,7 @@
+
+title('惯性环节幅相频率特性')
+semilogx(w,L,'--w')
+xlabel('频率(rad/s)')ylabel('相角（deg）')
+for  ii=1:length(w)
+text(w(ii),fai(ii),['   (' num2str(w(ii)) ','  num2str(fai(ii)) ')'])
+end
